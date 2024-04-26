@@ -3,7 +3,6 @@
     justify-content: space-evenly;
     list-style-type: none;
     align-items: center;
-    background-color: goldenrod;
 }
 
 .navbarli img{
@@ -20,21 +19,10 @@
     margin: 10px;
 
 }
-.registration{
+.downcv{
     text-decoration:none ;
     border: 2px solid rgb(32, 32, 72);
     background-color:rgb(32, 32, 72) ;
-    color: white;
-    padding: 10px;
-    border-radius:20px ;
-    /*border-radius: 50px' */
-    /* condition width = height */
-}
-
-.registration1{
-    text-decoration:none ;
-    border: 2px solid rgb(126, 0, 59);
-    background-color:rgb(126, 0, 59) ;
     color: white;
     padding: 10px;
     border-radius:20px ;
@@ -46,25 +34,16 @@
     display:flex ;
     justify-content: space-evenly;
     background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
-    padding: 80px;
+    padding: 100px;
 }
 
 .herodiv1{
-    font-size: x-large;
+   
     padding-top: 100px;
-    padding: 50px;
-}
-
-.hd1{
-    color: rgb(139, 15, 113);
-}
-
-.hd2{
-    color: rgb(201, 10, 10);
 }
 
 .herodiv2 img{
-    width:300px;
+    width:500px;
 }
 .say{
     text-decoration:none ;
@@ -85,17 +64,17 @@
     
 }
 .icons {
-    padding-top: 100px;
+    padding-top: 400px;
 }
 
 .Clients{
-    background-color: rgb(159, 159, 247);
+    background-color: rgb(32, 32, 105);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 50px;
 }
 .my{
-    background-color: rgb(211, 211, 236);
+    background-color: rgb(32, 32, 105);
     color: white;
     margin: 0px;
 }
@@ -106,26 +85,4 @@
 
 .my::before{
     content: "----------";
-}
-
-.dedication1{
-    display: flex;
-    align-items: center;
-    color: rgb(145, 240, 37);
-}
-
-.dedication{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px;
-}
-
-.dedication{
-    background-image: url("https://www.gopinkcabs.com/wp-content/uploads/2021/01/4MIM.jpeg");
-
-}
-
-.dedication2{
-    color: whitesmoke;
-    font-style: oblique;
 }
